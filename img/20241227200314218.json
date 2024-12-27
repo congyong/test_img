@@ -1,0 +1,114 @@
+{
+  "PICGO_ENV": "GUI",
+  "uploaded": [],
+  "picBed": {
+    "current": "github",
+    "uploader": "github",
+    "smms": {
+      "token": ""
+    },
+    "list": [
+      {
+        "name": "SM.MS图床",
+        "type": "smms",
+        "visible": false
+      },
+      {
+        "name": "腾讯云COS",
+        "type": "tcyun",
+        "visible": false
+      },
+      {
+        "name": "GitHub图床",
+        "type": "github",
+        "visible": true
+      },
+      {
+        "name": "七牛图床",
+        "type": "qiniu",
+        "visible": false
+      },
+      {
+        "name": "Imgur图床",
+        "type": "imgur",
+        "visible": false
+      },
+      {
+        "name": "阿里云OSS",
+        "type": "aliyun",
+        "visible": false
+      },
+      {
+        "name": "又拍云图床",
+        "type": "upyun",
+        "visible": false
+      },
+      {
+        "name": "githubPlus",
+        "type": "githubPlus",
+        "visible": false
+      }
+    ],
+    "github": {
+      "branch": "master",
+      "customUrl": "https://cdn.jsdelivr.net/gh/congyong/test_img",
+      "path": "img/",
+      "repo": "congyong/test_img",
+      "token": "dd56daa89461605ee5858b4e35741ee87f7bf553",
+      "_configName": "Default",
+      "_id": "ca98a3d1-0857-4f5a-b994-7a95a8c104d7",
+      "_createdAt": 1686376628693,
+      "_updatedAt": 1719974225850
+    }
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": false,
+        "key": "CommandOrControl+Shift+P",
+        "name": "upload",
+        "label": "快捷上传"
+      },
+      "picgo-plugin-quick-capture:quick-capture": {
+        "enable": true,
+        "name": "quick-capture",
+        "label": "快速截图并上传",
+        "key": "CmdOrCtrl+Shift+0"
+      }
+    },
+    "server": {
+      "port": 36677,
+      "host": "127.0.0.1",
+      "enable": true
+    },
+    "showUpdateTip": false,
+    "pasteStyle": "markdown",
+    "autoRename": true,
+    "privacyEnsure": true
+  },
+  "picgoPlugins": {
+    "picgo-plugin-autocopy": true,
+    "picgo-plugin-github-plus": true,
+    "picgo-plugin-quick-capture": true
+  },
+  "debug": true,
+  "needReload": false,
+  "uploader": {
+    "github": {
+      "configList": [
+        {
+          "branch": "master",
+          "customUrl": "https://cdn.jsdelivr.net/gh/congyong/test_img",
+          "path": "img/",
+          "repo": "congyong/test_img",
+          "token": "dd56daa89461605ee5858b4e35741ee87f7bf553",
+          "_configName": "Default",
+          "_id": "ca98a3d1-0857-4f5a-b994-7a95a8c104d7",
+          "_createdAt": 1686376628693,
+          "_updatedAt": 1719974225850
+        }
+      ],
+      "defaultId": "ca98a3d1-0857-4f5a-b994-7a95a8c104d7"
+    }
+  }
+}
